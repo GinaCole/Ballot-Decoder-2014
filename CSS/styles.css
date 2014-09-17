@@ -1,5 +1,5 @@
 p {
-	font-family: "Arial sans-serif"
+	font-family: Arial, sans-serif;
 	line-height: 1.4em;
 	margin: 8 0 8 0;
 }
@@ -9,17 +9,42 @@ p {
 	margin-bottom: 18px;
 }
 .body-text {
-	font-family: "Arial"
+	font-family: Arial
 	font: 13px sans-serif;
 }
 h1 {
 	color: black;
 	font-size: 40px;
-	font-family: "Georgia";
+	font-family: Georgia;
 	font-weight: bold;
 }
 .hed6 {
 	font-size: 31px;
 	line-height: 1.2em;
 	font-weight: normal;
+}
+h3 {
+	font-size: 120%;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: black;
+	padding: 6 0 6 0;
+	overflow: hidden;
+	line-height: .84em;
+	border-top: 3px solid black;
+	border-bottom: 1px solid #c7c7c7;
+	text-transform: uppercase;
+	clear: both;
+}
+h4 {
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	padding-top: 3px;
+	font-weight: bolder;
+	font-size: 125%;
+	margin: 10 0 10 0;
+	color: black;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+	
 }
