@@ -23,6 +23,13 @@ h1 {
 	line-height: 1.2em;
 	font-weight: normal;
 }
+h2 {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 28px;
+	color: navy;
+	border-bottom: 1px solid #c7c7c7;
+}
 h3 {
 	font-size: 120%;
 	font-family: Arial, sans-serif;
@@ -72,25 +79,28 @@ h4 {
 .factbox-left {
 	width: 250px;
 	background: #c7c7c7;
-	padding: 5 20 15 20;
-	margin: 0 40 0 0;
+	padding: 0 20 10 20;
+	margin: 0 40 30 0;
 	float: left;
 }
 .factbox-right {
 	width: 250px;
 	background: #c7c7c7;
-	padding: 5 20 15 20;
+	padding: 0 20 10 20;
+	margin: 0 0 30 0;
 	float: left;
 }
-.factbox-left h2 {
+.factbox-left h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
+	line-height: 0.2em;
 }
-.factbox-right h2 {
+.factbox-right h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
+	line-height: 0.2em;
 }
 
 
