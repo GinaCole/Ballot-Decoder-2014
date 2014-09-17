@@ -69,6 +69,29 @@ h4 {
 	width: 300px;
 	float: left;
 }
+.factbox-left {
+	width: 250px;
+	background: #c7c7c7;
+	padding: 5 20 15 20;
+	margin: 0 40 0 0;
+	float: left;
+}
+.factbox-right {
+	width: 250px;
+	background: #c7c7c7;
+	padding: 5 20 15 20;
+	float: left;
+}
+.factbox-left h2 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 110%;
+}
+.factbox-right h2 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 110%;
+}
 
 
 
