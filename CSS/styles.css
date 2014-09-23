@@ -1,5 +1,5 @@
 p {
-	font-family: Arial, sans-serif;
+	font-family: Arial;
 	line-height: 1.4em;
 	margin: 8 0 8 0;
 }
@@ -9,6 +9,10 @@ p {
 	margin-bottom: 18px;
 }
 .body-text {
+	font-family: Arial
+	font: 13px sans-serif;
+}
+.box-text {
 	font-family: Arial
 	font: 13px sans-serif;
 }
@@ -24,11 +28,12 @@ h1 {
 	font-weight: normal;
 }
 h2 {
-	font-family: Georgia;
+	font-family: 'belo-dincondensed_bold', Georgia;
 	font-weight: bold;
-	font-size: 28px;
-	color: navy;
+	font-size: 32px;
+	color: #BC5C23;
 	border-bottom: 1px solid #c7c7c7;
+	text-transform: uppercase;
 }
 h3 {
 	font-size: 120%;
@@ -80,14 +85,14 @@ h4 {
 	width: 250px;
 	background: #c7c7c7;
 	padding: 0 20 10 20;
-	margin: 0 40 30 0;
+	margin: 0 40 20 0;
 	float: left;
 }
 .factbox-right {
 	width: 250px;
 	background: #c7c7c7;
 	padding: 0 20 10 20;
-	margin: 0 0 30 0;
+	margin: 0 0 20 0;
 	float: left;
 }
 .factbox-left h5 {
