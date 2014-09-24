@@ -64,7 +64,7 @@ h4 {
 	vertical-align: baseline;
 }
 .container {
-	width: 630px;
+	width: 960px;
 	height: 200;
 	padding: 0 25 0 25;
 	margin: 25 0 0 0;
@@ -78,8 +78,8 @@ h4 {
 }
 .column-left {
 	width: 300px;
-	float: left;
 	padding-right: 25px;
+	float: left;
 }
 .column-right {
 	width: 300px;
@@ -89,21 +89,25 @@ h4 {
 	width: 250px;
 	background: #c7c7c7;
 	padding: 0 20 10 20;
-	margin: 0 40 20 0;
 	float: left;
+	margin: 0 40 20 0;
 }
 .factbox-right {
 	width: 250px;
 	background: #c7c7c7;
 	padding: 0 20 10 20;
-	margin: 0 0 20 0;
 	float: left;
+	margin: 0 40 20 0;
 }
 .factbox-center {
 	width: 580px;
 	background: #c7c7c7;
 	padding: 0 20 10 20;
+	float: left;
 	margin: 0 0 20 0;
+}
+.factbox-related {
+	width: 300px;
 	float: left;
 }
 .factbox-left h5 {
