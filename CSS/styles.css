@@ -36,8 +36,9 @@ h2 {
 	text-transform: uppercase;
 }
 .related {
-	font-size: 110%;
+	font-size: 120%;
 	border-bottom: none;
+	font-weight: normal;
 }
 h3 {
 	font-size: 120%;
@@ -84,6 +85,7 @@ h4 {
 .column-right {
 	width: 300px;
 	float: left;
+	margin: 0 35 0 0;
 }
 .factbox-left {
 	width: 250px;
