@@ -95,6 +95,13 @@ h4 {
 	margin: 0 0 20 0;
 	float: left;
 }
+.factbox-center {
+	width: 580px;
+	background: #c7c7c7;
+	padding: 0 20 10 20;
+	margin: 0 0 20 0;
+	float: left;
+}
 .factbox-left h5 {
 	text-align: center;
 	font-family: Arial;
@@ -102,6 +109,12 @@ h4 {
 	line-height: 0.2em;
 }
 .factbox-right h5 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 110%;
+	line-height: 0.2em;
+}
+.factbox-center h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
