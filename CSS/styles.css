@@ -35,6 +35,10 @@ h2 {
 	border-bottom: 1px solid #c7c7c7;
 	text-transform: uppercase;
 }
+.related {
+	font-size: 110%;
+	border-bottom: none;
+}
 h3 {
 	font-size: 120%;
 	font-family: Arial, sans-serif;
@@ -119,6 +123,9 @@ h4 {
 	font-family: Arial;
 	font-size: 110%;
 	line-height: 0.2em;
+}
+.verticalline {
+	border-left: thin solid #c7c7c7;
 }
 
 
