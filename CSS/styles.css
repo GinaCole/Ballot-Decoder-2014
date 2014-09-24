@@ -68,7 +68,7 @@ h4 {
 	width: 960px;
 	height: 200;
 	padding: 0 25 0 25;
-	margin: 25 0 0 0;
+	margin: 25 0 80 0;
 }
 .label {
 	font-weight: bold;
@@ -111,6 +111,7 @@ h4 {
 .factbox-related {
 	width: 300px;
 	float: left;
+	margin: 0 0 20 0;
 }
 .factbox-left h5 {
 	text-align: center;
