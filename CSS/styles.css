@@ -1,4 +1,6 @@
-p {
+.ballot-guide {
+}
+.ballot-guide p {
 	font-family: Arial;
 	line-height: 1.4em;
 	margin: 8 0 8 0;
@@ -130,6 +132,9 @@ h4 {
 	width: 430px;
 	float: left;
 	margin: 0 0 20 0;
+}
+.factbox-related li{
+	list-style-type: disc;
 }
 .factbox-related2 {
 	width: 300px;
