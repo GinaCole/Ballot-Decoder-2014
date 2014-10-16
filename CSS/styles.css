@@ -1,57 +1,60 @@
 .ballot-guide {
+	width: 960px;
 }
 .ballot-guide p {
 	font-family: Arial;
 	line-height: 1.4em;
-	margin: 8 0 8 0;
+	margin: 8px 0 8px 0;
 }
-.summary {
+.ballot-guide .summary {
 	color: #575757;
 	font-size: 130%;
 	margin-bottom: 18px;
 }
-.body-text {
+.ballot-guide .body-text {
 	font-family: Arial
 	font: 13px sans-serif;
 }
-.box-text {
+.ballot-guide .box-text {
 	font-family: Arial
 	font: 13px sans-serif;
 }
-.links-text {
+.ballot-guide .links-text {
 	font-family: Arial
 	font: 10px sans-serif;
 }
-h1 {
+.ballot-guide h1 {
 	color: black;
 	font-size: 40px;
 	font-family: Georgia;
 	font-weight: bold;
 }
-.hed6 {
+.ballot-guide .hed6 {
 	font-size: 31px;
 	line-height: 1.2em;
 	font-weight: normal;
 }
-h2 {
+.ballot-guide h2 {
 	font-family: 'belo-dincondensed_bold', Georgia;
 	font-weight: bold;
 	font-size: 32px;
 	color: #BC5C23;
-	border-bottom: 1px solid #c7c7c7;
+	border-bottom: 2px solid #a1a1a1;
 	text-transform: uppercase;
+margin-bottom: 20px;
 }
-.related {
+.ballot-guide h2.related {
 	font-size: 120%;
 	border-bottom: none;
 	font-weight: normal;
+margin-bottom: 0;
 }
-h3 {
+.ballot-guide h3 {
 	font-size: 120%;
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	color: black;
-	padding: 6 0 6 0;
+	padding: 6px 0 6px 0;
 	overflow: hidden;
 	line-height: .84em;
 	border-top: 3px solid black;
@@ -59,128 +62,129 @@ h3 {
 	text-transform: uppercase;
 	clear: both;
 }
-h4 {
+.ballot-guide h4 {
 	overflow: hidden;
 	font-family: Arial, sans-serif;
 	padding-top: 3px;
 	font-weight: bolder;
 	font-size: 125%;
-	margin: 10 0 10 0;
+	margin: 10px 0 10px 0;
 	color: black;
 	text-rendering: optimizeLegibility;
 	vertical-align: baseline;
 }
-.container {
+.ballot-guide .container {
 	width: 960px;
-	height: 200;
-	padding: 0 25 0 25;
-	margin: 25 0 80 0;
+	margin: 15px 0 20px 0;
 }
-.label {
+.ballot-guide .label {
 	font-weight: bold;
 	font-size: 110%;
 	color: #575757;
 	text-transform: uppercase;
 	font-family: Arial;
 }
-.column-left {
+.ballot-guide .column-left {
 	width: 300px;
 	padding-right: 25px;
 	float: left;
 }
-.column-right {
+.ballot-guide .column-right {
 	width: 300px;
 	float: left;
-	margin: 0 35 0 0;
+	margin: 0 35px 0 0;
 }
-.factbox-left {
+.ballot-guide .factbox-left {
 	width: 400px;
-	background: #c7c7c7;
-	padding: 0 20 10 20;
-	float: left;
-	margin: 0 40 20 0;
+	background: #e1e1e1;
+	padding: 5px 20px 10px 20px;
+	float: left; 
+	margin: 0 40px 20px 0; 
 }
-.factbox-left2 {
-	width: 250px;
-	background: #c7c7c7;
-	padding: 0 20 10 20;
+.ballot-guide .factbox-left2 {
+	width: 260px;
+	background: #e1e1e1;
+	padding: 0 20px 10px 20px;
 	float: left;
-	margin: 0 40 20 0;
+	margin: 0 30px 5px 0;
 }
-.factbox-right {
+.ballot-guide .factbox-right {
 	width: 400px;
-	background: #c7c7c7;
-	padding: 0 20 10 20;
+	background: #e1e1e1;
+	padding: 5px 20px 10px 20px;
 	float: left;
-	margin: 0 40 20 0;
+	margin: 0 40px 20px 0;
 }
-.factbox-right2 {
-	width: 250px;
-	background: #c7c7c7;
-	padding: 0 20 10 20;
+.ballot-guide .factbox-right2 {
+	width: 255px;
+	background: #e1e1e1;
+	padding: 0 20px 10px 20px;
+	float: left; 
+	margin: 0 30px 5px 0; 
+}
+.ballot-guide .factbox-center {
+	width: 585px;
+	background: #e1e1e1;
+	padding: 0 20px 10px 20px;
+	float: left; 
+	margin: 20px 360px 20px 0; 
+}
+.ballot-guide .factbox-related {
+	width: 430px;  
+	float: left;  
+	margin: 0 0 20px 0;  
+}
+.ballot-guide .factbox-related li {
+       list-style-type: disc;
+	margin: 0 0 0 15px;
+line-height: 
+}
+.ballot-guide .factbox-related2 {
+	width: 290px;
 	float: left;
-	margin: 0 40 20 0;
+	padding: 0 10px 0 0;
 }
-.factbox-center {
-	width: 580px;
-	background: #c7c7c7;
-	padding: 0 20 10 20;
-	float: left;
-	margin: 0 360 20 0;
+.ballot-guide .factbox-related2 li {
+       list-style-type: disc;
+	margin: 0 0 0 15px;
 }
-.factbox-related {
-	width: 430px;
-	float: left;
-	margin: 0 0 20 0;
-}
-.factbox-related li{
-	list-style-type: disc;
-}
-.factbox-related2 {
-	width: 300px;
-	float: left;
-	margin: 0 0 20 0;
-}
-.factbox-left h5 {
+.ballot-guide .factbox-left h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
 	line-height: 0.2em;
 }
-.factbox-right h5 {
+.ballot-guide .factbox-right h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
 	line-height: 0.2em;
 }
-.factbox-left2 h5 {
+.ballot-guide .factbox-left2 h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
 	line-height: 1.2em;
 }
-.factbox-right2 h5 {
+.ballot-guide .factbox-right2 h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
 	line-height: 1.2em;
 }
-.factbox-center h5 {
+.ballot-guide .factbox-center h5 {
 	text-align: center;
 	font-family: Arial;
 	font-size: 110%;
 	line-height: 0.2em;
 }
-.verticalline {
+.ballot-guide .verticalline {
 	border-left: thin solid #c7c7c7;
 }
-i {
+.ballot-guide i {
 	color: #BC5C23;
 	font-size: 150%;
 }
-
-
-
 .clearfix:after {
     content: ".";
     display: block;
